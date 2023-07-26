@@ -1,0 +1,30 @@
+GET http://localhost:3000/cats
+
+###
+POST http://localhost:3000/cats
+Content-Type: application/json
+
+{
+    "name": "Tally",
+    "age": 2,
+    "breed": "mose"
+}
+
+
+
+###
+GET http://localhost:3000/cats/64c09c01fb2174a8eb10bf5f
+
+###
+PUT http://localhost:3000/cats/64c09c01fb2174a8eb10bf5f
+Content-Type: application/json
+
+{
+    "name": "Holy",
+    "age": 5,
+    "breed": "mose"
+}
+
+###
+###
+DELETE http://localhost:3000/cats/64c09c01fb2174a8eb10bf5f
